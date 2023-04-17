@@ -1,0 +1,15 @@
+.container{
+  -webkit-text-fill-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.icons {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 150px;
+}
+.d-grid {
+  size: 400px;
+}

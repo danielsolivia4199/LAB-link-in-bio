@@ -1,15 +1,28 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
 .container{
   -webkit-text-fill-color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 50px;
 }
 .icons {
   margin-bottom: 20px;
 }
+.icons:hover{
+  cursor: pointer;
+}
 img {
   max-width: 150px;
+  border-radius: 50%;
 }
-.d-grid {
-  size: 400px;
+h5 {
+margin-top: 10px;
+}
+
+p {
+  -webkit-text-fill-color: lightgrey;
 }
